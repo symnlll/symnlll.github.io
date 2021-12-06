@@ -22,8 +22,8 @@
 <body>
 <div id="top">
 <main id="top_main">
-<div id="top_logo"><img src="src/tx2.png" onmouseover="mouseOver()" onmouseout="mouseOut()" id="mainimg"></div>
-<div id="top_title"><img id="top_title01" alt="" src="src/toptitle01.png">
+<div id="top_logo"><img src="./src/tx2.png" onmouseover="mouseOver()" onmouseout="mouseOut()" id="mainimg"></div>
+<div id="top_title"><img id="top_title01" alt="" src="./src/toptitle01.png">
 <br class="top_hr_style01">
 </div><br><br>
 <div class="showcase-examples l-over l-center">
@@ -47,11 +47,11 @@
 </body>
 <script>
 	function mouseOver(){
-		document.getElementById("mainimg").src="src/tx.png";//鼠标悬浮时的旋转图标
+		document.getElementById("mainimg").src="./src/tx.png";//鼠标悬浮时的旋转图标
 	}
 	function mouseOut()
 	{
-		document.getElementById('mainimg').src ="src/tx2.png"//默认的旋转图标
+		document.getElementById('mainimg').src ="./src/tx2.png"//默认的旋转图标
 	}
 </script>
 <script type="text/javascript">
@@ -78,6 +78,6 @@ bodyBgs[12] = "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fi0.hdslb.co
 </script>
 <script type="text/javascript" src="src/snow.min.js"></script>        
 <script type="text/javascript">
-createSnow('src/', 60);
+createSnow('./src/', 60);
 </script>
 </html>
